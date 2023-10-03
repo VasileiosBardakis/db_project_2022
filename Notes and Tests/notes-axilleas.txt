@@ -1,0 +1,47 @@
+paradoxes sto arxiko einai ta perissotera na einai NOT NULL
+exoume frontisei na yparxoun genikotera workers pou den tous exei anatheth8ei kapoio trip,
+kapoioi pou exoun polla,
+trips me polla destination,
+destination me super-destination klp
+
+
+
+προσφορες ταξιδιων: μπορει το dst_id να ειναι καποιο
+super destination
+
+codes auto_increment
+default names: 'unknown'
+
+to char sto password isws na dhmiourghsei thema sthn java meta,
+tote allazoume se varchar!
+
+
+trigger reservation if maxseats reached then dont accept reservation:
+inner join the count(*) and compare to maxseats. if == then throw exception error (java handles)
+
+reservation sumbash: onoma autou pou ekleise
+
+stored procedure find available seats:
+left join, grab only nulls -> show them as available.
+
+TRIGGERS gia kathe procedure (person already exists klp)
+
+sthn 3.1.3.3 diagrafetai o admin an den einai manager. An uparxoun 2 atoma me idio onoma epilegetai mono o enas admin.
+An den kanoume sumvash gia thn mh uparksh atomwn me idio onoma, prepei na ylopoihthei me cursor
+
+Ti xreiazetai na emfanizoume sthn procedure 2 gia ta 60k? mporoume me mia SELECT
+h prepei na kanoume 2?
+
+
+GUI:
+PREPARED BETTER THAN STATEMENT; NOT PRONE TO SQL INJECTION
+https://stackoverflow.com/questions/14621076/is-there-any-use-for-views-triggers-and-stored-procedures-for-a-java-gui-project
+
+after delete/update, refresh table (maybe recursively call?) OR refresh button (label)
+
+remove trailing spaces from username (trim function)
+
+equals() instead of ==
+== only checks for references
+
+LOGICAL TRIGGERS AND STORED PROCEDURES (reservation only if seats available etc.)
